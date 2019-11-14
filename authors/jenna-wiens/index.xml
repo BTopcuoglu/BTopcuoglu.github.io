@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenna Wiens | Begum Topcuoglu</title>
+    <link>https://begumtopcuoglu.com/authors/jenna-wiens/</link>
+      <atom:link href="https://begumtopcuoglu.com/authors/jenna-wiens/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jenna Wiens</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright>
+    <image>
+      <url>https://begumtopcuoglu.com/img/icon-192.png</url>
+      <title>Jenna Wiens</title>
+      <link>https://begumtopcuoglu.com/authors/jenna-wiens/</link>
+    </image>
+    
+    <item>
+      <title>Effective application of machine learning to microbiome based classification problems</title>
+      <link>https://begumtopcuoglu.com/publication/topcuoglu_mbio_2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/publication/topcuoglu_mbio_2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

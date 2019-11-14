@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Begum Topcuoglu</title>
+    <link>https://begumtopcuoglu.com/talk/</link>
+      <atom:link href="https://begumtopcuoglu.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright><lastBuildDate>Mon, 28 Oct 2019 16:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://begumtopcuoglu.com/img/icon-192.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://begumtopcuoglu.com/talk/</link>
+    </image>
+    
+    <item>
+      <title>DANG presents Machine Learning Pipelines in R</title>
+      <link>https://begumtopcuoglu.com/talk/dang/</link>
+      <pubDate>Mon, 28 Oct 2019 16:00:00 -0500</pubDate>
+      <guid>https://begumtopcuoglu.com/talk/dang/</guid>
+      <description>&lt;p&gt;Learning goals of this talk are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Learn what ML is.&lt;/li&gt;
+&lt;li&gt;Learn basic ML terminology.&lt;/li&gt;
+&lt;li&gt;Learn about a couple of different ML algorithms.&lt;/li&gt;
+&lt;li&gt;Define a ML problem.&lt;/li&gt;
+&lt;li&gt;Decide which ML model to use.&lt;/li&gt;
+&lt;li&gt;Construct our dataset.&lt;/li&gt;
+&lt;li&gt;Transform our dataset.&lt;/li&gt;
+&lt;li&gt;Train a ML model.&lt;/li&gt;
+&lt;li&gt;Use the ML model to make predictions.&lt;/li&gt;
+&lt;li&gt;Evaluate if our ML solved our problem.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;We will learn to identify and avoid common mistakes in ML studies. Create reproducible ML models.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This tutorial does not presume or require prior knowledge in machine learning. However, to follow the lessons and for the code-along, we recommend learners to meet the following prerequisites.&lt;/p&gt;
+
+&lt;p&gt;Be comfortable with intro-level algebra.
+Proficiency in programming basics with some experience coding in R.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

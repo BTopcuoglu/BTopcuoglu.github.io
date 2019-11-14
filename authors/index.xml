@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Begum Topcuoglu</title>
+    <link>https://begumtopcuoglu.com/authors/</link>
+      <atom:link href="https://begumtopcuoglu.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright><lastBuildDate>Wed, 13 Nov 2019 23:02:29 -0500</lastBuildDate>
+    <image>
+      <url>https://begumtopcuoglu.com/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://begumtopcuoglu.com/authors/</link>
+    </image>
+    
+    <item>
+      <title>Begüm D. Topçuoglu and Zena Lapp</title>
+      <link>https://begumtopcuoglu.com/authors/begum-d.-topcuoglu-and-zena-lapp/</link>
+      <pubDate>Wed, 13 Nov 2019 23:02:29 -0500</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/begum-d.-topcuoglu-and-zena-lapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://begumtopcuoglu.com/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/admin/</guid>
+      <description>&lt;p&gt;I am a postdoctoral research fellow in the Schloss Lab at the University of Michigan. My research focuses on integrating data science and microbial ecology to improve human health. I care deeply about implementing &amp;ldquo;Do No Harm&amp;rdquo; principles when using machine learning in health care. I use computational biology approaches and bioinformatics tools to study the human microbiome.&lt;/p&gt;
+
+&lt;p&gt;I am invested in communicating my science with the public. I am a Science Communications Fellow at the University of Michigan Natural History Museum, a Software Carpentry Instructor and a NerdNight Alum.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>and Patrick D. Schloss</title>
+      <link>https://begumtopcuoglu.com/authors/and-patrick-d.-schloss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/and-patrick-d.-schloss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Begüm D. Topçuoğlu</title>
+      <link>https://begumtopcuoglu.com/authors/begum-d.-topcuoglu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/begum-d.-topcuoglu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenna Wiens</title>
+      <link>https://begumtopcuoglu.com/authors/jenna-wiens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/jenna-wiens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mack Ruffin</title>
+      <link>https://begumtopcuoglu.com/authors/mack-ruffin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/mack-ruffin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mack T. Ruffin</title>
+      <link>https://begumtopcuoglu.com/authors/mack-t.-ruffin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/mack-t.-ruffin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marc A. Sze</title>
+      <link>https://begumtopcuoglu.com/authors/marc-a.-sze/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/marc-a.-sze/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicholas A. Lesniak</title>
+      <link>https://begumtopcuoglu.com/authors/nicholas-a.-lesniak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/nicholas-a.-lesniak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patrick D. Schloss</title>
+      <link>https://begumtopcuoglu.com/authors/patrick-d.-schloss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/patrick-d.-schloss/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

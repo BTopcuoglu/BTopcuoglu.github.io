@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Begum Topcuoglu</title>
+    <link>https://begumtopcuoglu.com/</link>
+      <atom:link href="https://begumtopcuoglu.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Begum Topcuoglu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright><lastBuildDate>Wed, 13 Nov 2019 23:02:29 -0500</lastBuildDate>
+    <image>
+      <url>https://begumtopcuoglu.com/img/icon-192.png</url>
+      <title>Begum Topcuoglu</title>
+      <link>https://begumtopcuoglu.com/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning Pipeline for microbiome data</title>
+      <link>https://begumtopcuoglu.com/project/machine_learning_pipeline/</link>
+      <pubDate>Wed, 13 Nov 2019 23:02:29 -0500</pubDate>
+      <guid>https://begumtopcuoglu.com/project/machine_learning_pipeline/</guid>
+      <description>&lt;p&gt;Machine learning is a set of methods that allow computers to learn from existing data and make predictions on new data.&lt;/p&gt;
+
+&lt;p&gt;Machine learning models are programs learned by the computer. They predict which Amazon product you will buy next, how much value Bitcoin will lose in the coming month or when the cherry blossoms will peak in Washington DC.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ML models are now being used to make high stake decisions by:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The judicial system to make parole decisions.&lt;/li&gt;
+&lt;li&gt;Weather forecasts to predict air quality.&lt;/li&gt;
+&lt;li&gt;The financial system to decide who gets a loan.&lt;/li&gt;
+&lt;li&gt;Hospitals to automoate interpretation of the EKGs and detection of a lung nodules from chest X-rays.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Can we use ML models in the microbiome field?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Microbiome field is growing at an unprecedented rate.
+There is an increasing demand for methods that identify associations between members of the microbiome and their ecosystem such as an animal host or a soil habitat.&lt;/p&gt;
+
+&lt;p&gt;It is unlikely that a single species can explain the change we see in an ecosystem. Instead, subsets of those communities, in relation to one another and to their environment account for that.&lt;/p&gt;
+
+&lt;p&gt;Machine learning (ML) methods are effective at recognizing and highlighting patterns in complex microbial datasets. Therefore, researchers have started to explore the utility of ML models that use microbiome associated biomarkers to predict changes in an ecosystem using ML such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Modeling soil microbiome to predict crop productivity.&lt;/li&gt;
+&lt;li&gt;Modeling muman microbiome to detect colorectal cancer or a Clostridium difficile infection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Problems with ML in the microbiome field&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;It is great that we are using new tools to understand microbial systems however, currentlythe field’s use of ML lacks clarity and consistency on which methods are used and how these methods are implemented.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There is a trend towards using more complex ML models such as random or neural networks without a discussion on if this is necessary for the goals of a study.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The lack of transparency on modeling methodology and model selection negatively impact model reproducibility and reliability.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;We need to strive toward better machine learning practices by:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Implementing consistent, accessible and transparent machine learning methods.&lt;/li&gt;
+&lt;li&gt;Selecting ML models that reflect the goal of the study.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Goals of this project&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Provide an open-source, reproducible and user-friendly ML pipeline for microbial ecologists to use.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DANG presents Machine Learning Pipelines in R</title>
+      <link>https://begumtopcuoglu.com/talk/dang/</link>
+      <pubDate>Mon, 28 Oct 2019 16:00:00 -0500</pubDate>
+      <guid>https://begumtopcuoglu.com/talk/dang/</guid>
+      <description>&lt;p&gt;Learning goals of this talk are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Learn what ML is.&lt;/li&gt;
+&lt;li&gt;Learn basic ML terminology.&lt;/li&gt;
+&lt;li&gt;Learn about a couple of different ML algorithms.&lt;/li&gt;
+&lt;li&gt;Define a ML problem.&lt;/li&gt;
+&lt;li&gt;Decide which ML model to use.&lt;/li&gt;
+&lt;li&gt;Construct our dataset.&lt;/li&gt;
+&lt;li&gt;Transform our dataset.&lt;/li&gt;
+&lt;li&gt;Train a ML model.&lt;/li&gt;
+&lt;li&gt;Use the ML model to make predictions.&lt;/li&gt;
+&lt;li&gt;Evaluate if our ML solved our problem.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;We will learn to identify and avoid common mistakes in ML studies. Create reproducible ML models.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This tutorial does not presume or require prior knowledge in machine learning. However, to follow the lessons and for the code-along, we recommend learners to meet the following prerequisites.&lt;/p&gt;
+
+&lt;p&gt;Be comfortable with intro-level algebra.
+Proficiency in programming basics with some experience coding in R.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Effective application of machine learning to microbiome based classification problems</title>
+      <link>https://begumtopcuoglu.com/publication/topcuoglu_mbio_2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/publication/topcuoglu_mbio_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fecal short-chain fatty acids are not predictive of colonic tumor status and cannot be predicted based on bacterial community structure</title>
+      <link>https://begumtopcuoglu.com/publication/sze_mbio_2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/publication/sze_mbio_2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
