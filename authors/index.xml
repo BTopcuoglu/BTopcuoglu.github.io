@@ -5,7 +5,7 @@
     <link>https://begumtopcuoglu.com/authors/</link>
       <atom:link href="https://begumtopcuoglu.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019</copyright><lastBuildDate>Wed, 13 Nov 2019 23:02:29 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Wed, 13 Nov 2019 23:02:29 -0500</lastBuildDate>
     <image>
       <url>https://begumtopcuoglu.com/img/icon-192.png</url>
       <title>Authors</title>
@@ -25,7 +25,9 @@
       <link>https://begumtopcuoglu.com/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://begumtopcuoglu.com/authors/admin/</guid>
-      <description>&lt;p&gt;I am a postdoctoral research fellow in the Schloss Lab at the University of Michigan. My research focuses on integrating data science and microbial ecology to improve human health. I care deeply about implementing &amp;ldquo;Do No Harm&amp;rdquo; principles when using machine learning in health care. I use computational biology approaches and bioinformatics tools to study the human microbiome.&lt;/p&gt;
+      <description>&lt;p&gt;My research focus on integrating data science and microbial ecology to improve human health. I care deeply about implementing &amp;ldquo;Do No Harm&amp;rdquo; principles when using machine learning in health care. I use computational biology approaches and bioinformatics tools to study the human microbiome.&lt;/p&gt;
+
+&lt;p&gt;I worked as postdoctoral research fellow in the Schloss Lab at the University of Michigan.&lt;/p&gt;
 
 &lt;p&gt;I am invested in communicating my science with the public. I am a Science Communications Fellow at the University of Michigan Natural History Museum, a Software Carpentry Instructor and a NerdNight Alum.&lt;/p&gt;
 </description>
