@@ -585,7 +585,17 @@
     <div class="article-style">
       
 
-<h1 id="summary">Summary</h1>
+<h1 id="news">News</h1>
+
+<p><code>Date: 2020-12-22</code>
+mikropml is highlighted on  in the top 40 packages of November:
+<a href="https://rviews.rstudio.com/2020/12/22/november-top-40-new-cran-packages/" target="_blank">https://rviews.rstudio.com/2020/12/22/november-top-40-new-cran-packages/</a></p>
+
+<p><code>Date: 2020-12-01</code>
+mikropml is on CRAN!
+<a href="https://cloud.r-project.org/web/packages/mikropml/index.html" target="_blank">https://cloud.r-project.org/web/packages/mikropml/index.html</a></p>
+
+<h1 id="what-is-mikropml-package">What is mikropml package?</h1>
 
 <p>Machine learning (ML) for classification and prediction based on a set of
 features is used to make decisions in healthcare, economics, criminal justice
@@ -598,46 +608,6 @@ gradient-boosted trees. The package is available on
 <a href="https://github.com/SchlossLab/mikropml/" target="_blank">GitHub</a>,
 <a href="https://cran.r-project.org/package=mikropml" target="_blank">CRAN</a>, and
 <a href="https://anaconda.org/conda-forge/r-mikropml" target="_blank">conda</a>.</p>
-
-<h1 id="statement-of-need">Statement of need</h1>
-
-<p>Most applications of machine learning (ML) require reproducible steps for data
-pre-processing, cross-validation, testing, model evaluation, and often
-interpretation of why the model makes particular predictions. Performing these
-steps is important, as failure to implement them can result in incorrect and
-misleading results.</p>
-
-<p>Supervised ML is widely used to recognize patterns in large datasets and to make
-predictions about outcomes of interest. Several packages including <code>caret</code> and <code>tidymodels</code>  in R,
-<code>scikitlearn</code> in Python, and the H2O <code>autoML</code>
-platform allow scientists to train ML models with a variety of
-algorithms. While these packages provide the tools necessary for each ML step,
-they do not implement a complete ML pipeline according to good practices in the
-literature. This makes it difficult for practitioners new to ML to easily begin
-to perform ML analyses.</p>
-
-<p>To enable a broader range of researchers to apply ML to their problem domains,
-we created <a href="https://github.com/SchlossLab/mikropml/" target="_blank"><code>mikropml</code></a>, an easy-to-use
-R package that implements the ML pipeline created by
-Topçuoğlu <em>et al.</em> 2020 in a single function that returns a trained model,
-model performance metrics and feature importance. <code>mikropml</code> leverages
-the <code>caret</code> package to support several ML algorithms: linear regression,
-logistic regression, support vector machines with a radial basis kernel,
-decision trees, random forest, and gradient boosted trees. It incorporates good
-practices in ML training, testing, and model evaluation. Furthermore, it
-provides data preprocessing steps based on the FIDDLE (FlexIble Data-Driven
-pipeLinE) framework outlined in Tang <em>et al.</em> 2020 and
-post-training permutation importance steps to estimate the importance of each
-feature in the models trained.</p>
-
-<p><code>mikropml</code> can be used as a starting point in the application of ML to datasets
-from many different fields. It has already been applied to microbiome data to
-categorize patients with colorectal cancer to
-identify differences in genomic and clinical features associated with bacterial
-infections and to predict gender-based biases in academic
-publishing .</p>
-
-<h1 id="mikropml-package">mikropml package</h1>
 
 <p>The <code>mikropml</code> package includes functionality to preprocess the data, train ML
 models, evaluate model performance, and quantify feature importance (Figure 1).
@@ -655,30 +625,9 @@ facilitate understanding and enable one to tailor the code to their application,
 we have heavily commented the code and have provided supporting documentation
 which can be read <a href="http://www.schlosslab.org/mikropml/" target="_blank">online</a>.</p>
 
-<h1 id="acknowledgments">Acknowledgments</h1>
+<h1 id="why-the-name">Why the name?</h1>
 
-<p>We thank members of the Schloss Lab who participated in code clubs related to
-the initial development of the pipeline, made documentation improvements, and
-provided general feedback.</p>
-
-<h1 id="funding">Funding</h1>
-
-<p>Salary support for PDS came from NIH grant 1R01CA215574. KLS received support
-from the NIH Training Program in Bioinformatics (T32 GM070449). ZL received
-support from the National Science Foundation Graduate Research Fellowship
-Program under Grant No. DGE 1256260. Any opinions, findings, and conclusions or
-recommendations expressed in this material are those of the authors and do not
-necessarily reflect the views of the National Science Foundation.</p>
-
-<h1 id="author-contributions">Author contributions</h1>
-
-<p>BDT, ZL, and KLS contributed equally. Author order among the co-first authors
-was determined by time since joining the project.</p>
-
-<p>BDT, ZL, and KLS conceptualized the study and wrote the code. KLS structured the
-code in R package form. BDT, ZL, JW, and PDS developed methodology. PDS, ES, and
-JW supervised the project. BDT, ZL, and KLS wrote the original draft. All
-authors reviewed and edited the manuscript.</p>
+<p>The word &ldquo;mikrop&rdquo; (pronounced &ldquo;meek-ROPE&rdquo;) is Turkish for &ldquo;microbe&rdquo;. This package was originally implemented as a machine learning pipeline for microbiome-based classification problems (see <a href="https://doi.org/10.1128/mBio.00434-20" target="_blank">Topçuoğlu <em>et al.</em> 2020</a>). We realized that these methods are applicable in many other fields too, but stuck with the name because we like it!</p>
 
     </div>
 
