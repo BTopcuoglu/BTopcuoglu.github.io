@@ -13,57 +13,106 @@
     </image>
     
     <item>
-      <title>Machine earning pipeline for binary classification problems</title>
+      <title>mikropML is on CRAN!</title>
       <link>https://begumtopcuoglu.com/project/machine_learning_pipeline/</link>
       <pubDate>Wed, 13 Nov 2019 23:02:29 -0500</pubDate>
       <guid>https://begumtopcuoglu.com/project/machine_learning_pipeline/</guid>
-      <description>&lt;p&gt;Machine learning is a set of methods that allow computers to learn from existing data and make predictions on new data.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;Machine learning models are programs learned by the computer. They predict which Amazon product you will buy next, how much value Bitcoin will lose in the coming month or when the cherry blossoms will peak in Washington DC.&lt;/p&gt;
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;ML models are now being used to make high stake decisions by:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Machine learning (ML) for classification and prediction based on a set of
+features is used to make decisions in healthcare, economics, criminal justice
+and more. However, implementing an ML pipeline including preprocessing, model
+selection, and evaluation can be time-consuming, confusing, and difficult. Here,
+we present &lt;a href=&#34;http://www.schlosslab.org/mikropml/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;mikropml&lt;/code&gt;&lt;/a&gt; (prononced
+&amp;ldquo;meek-ROPE em el&amp;rdquo;), an easy-to-use R package that implements ML pipelines using
+regression, support vector machines, decision trees, random forest, or
+gradient-boosted trees. The package is available on
+&lt;a href=&#34;https://github.com/SchlossLab/mikropml/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;,
+&lt;a href=&#34;https://cran.r-project.org/package=mikropml&#34; target=&#34;_blank&#34;&gt;CRAN&lt;/a&gt;, and
+&lt;a href=&#34;https://anaconda.org/conda-forge/r-mikropml&#34; target=&#34;_blank&#34;&gt;conda&lt;/a&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;The judicial system to make parole decisions.&lt;/li&gt;
-&lt;li&gt;Weather forecasts to predict air quality.&lt;/li&gt;
-&lt;li&gt;The financial system to decide who gets a loan.&lt;/li&gt;
-&lt;li&gt;Hospitals to automoate interpretation of the EKGs and detection of a lung nodules from chest X-rays.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;statement-of-need&#34;&gt;Statement of need&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Can we use ML models in the microbiome field?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Most applications of machine learning (ML) require reproducible steps for data
+pre-processing, cross-validation, testing, model evaluation, and often
+interpretation of why the model makes particular predictions. Performing these
+steps is important, as failure to implement them can result in incorrect and
+misleading results.&lt;/p&gt;
 
-&lt;p&gt;Microbiome field is growing at an unprecedented rate.
-There is an increasing demand for methods that identify associations between members of the microbiome and their ecosystem such as an animal host or a soil habitat.&lt;/p&gt;
+&lt;p&gt;Supervised ML is widely used to recognize patterns in large datasets and to make
+predictions about outcomes of interest. Several packages including &lt;code&gt;caret&lt;/code&gt; and &lt;code&gt;tidymodels&lt;/code&gt;  in R,
+&lt;code&gt;scikitlearn&lt;/code&gt; in Python, and the H2O &lt;code&gt;autoML&lt;/code&gt;
+platform allow scientists to train ML models with a variety of
+algorithms. While these packages provide the tools necessary for each ML step,
+they do not implement a complete ML pipeline according to good practices in the
+literature. This makes it difficult for practitioners new to ML to easily begin
+to perform ML analyses.&lt;/p&gt;
 
-&lt;p&gt;It is unlikely that a single species can explain the change we see in an ecosystem. Instead, subsets of those communities, in relation to one another and to their environment account for that.&lt;/p&gt;
+&lt;p&gt;To enable a broader range of researchers to apply ML to their problem domains,
+we created &lt;a href=&#34;https://github.com/SchlossLab/mikropml/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;mikropml&lt;/code&gt;&lt;/a&gt;, an easy-to-use
+R package that implements the ML pipeline created by
+Topçuoğlu &lt;em&gt;et al.&lt;/em&gt; 2020 in a single function that returns a trained model,
+model performance metrics and feature importance. &lt;code&gt;mikropml&lt;/code&gt; leverages
+the &lt;code&gt;caret&lt;/code&gt; package to support several ML algorithms: linear regression,
+logistic regression, support vector machines with a radial basis kernel,
+decision trees, random forest, and gradient boosted trees. It incorporates good
+practices in ML training, testing, and model evaluation. Furthermore, it
+provides data preprocessing steps based on the FIDDLE (FlexIble Data-Driven
+pipeLinE) framework outlined in Tang &lt;em&gt;et al.&lt;/em&gt; 2020 and
+post-training permutation importance steps to estimate the importance of each
+feature in the models trained.&lt;/p&gt;
 
-&lt;p&gt;Machine learning (ML) methods are effective at recognizing and highlighting patterns in complex microbial datasets. Therefore, researchers have started to explore the utility of ML models that use microbiome associated biomarkers to predict changes in an ecosystem using ML such as:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mikropml&lt;/code&gt; can be used as a starting point in the application of ML to datasets
+from many different fields. It has already been applied to microbiome data to
+categorize patients with colorectal cancer to
+identify differences in genomic and clinical features associated with bacterial
+infections and to predict gender-based biases in academic
+publishing .&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Modeling soil microbiome to predict crop productivity.&lt;/li&gt;
-&lt;li&gt;Modeling muman microbiome to detect colorectal cancer or a Clostridium difficile infection.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;mikropml-package&#34;&gt;mikropml package&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Problems with ML in the microbiome field&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;mikropml&lt;/code&gt; package includes functionality to preprocess the data, train ML
+models, evaluate model performance, and quantify feature importance (Figure 1).
+We also provide
+&lt;a href=&#34;http://www.schlosslab.org/mikropml/articles/index.html&#34; target=&#34;_blank&#34;&gt;vignettes&lt;/a&gt; and an
+&lt;a href=&#34;https://github.com/SchlossLab/mikropml-snakemake-workflow&#34; target=&#34;_blank&#34;&gt;example Snakemake
+workflow&lt;/a&gt; to showcase how to run an ideal ML pipeline
+with multiple different train/test data splits. The results can be visualized
+using helper functions that use &lt;code&gt;ggplot2&lt;/code&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;It is great that we are using new tools to understand microbial systems however, currentlythe field’s use of ML lacks clarity and consistency on which methods are used and how these methods are implemented.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;While mikropml allows users to get started quickly and facilitates
+reproducibility, it is not a replacement for understanding the ML workflow which
+is still necessary when interpreting results. To
+facilitate understanding and enable one to tailor the code to their application,
+we have heavily commented the code and have provided supporting documentation
+which can be read &lt;a href=&#34;http://www.schlosslab.org/mikropml/&#34; target=&#34;_blank&#34;&gt;online&lt;/a&gt;.&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;There is a trend towards using more complex ML models such as random or neural networks without a discussion on if this is necessary for the goals of a study.&lt;/p&gt;&lt;/li&gt;
+&lt;h1 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h1&gt;
 
-&lt;li&gt;&lt;p&gt;The lack of transparency on modeling methodology and model selection negatively impact model reproducibility and reliability.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;We thank members of the Schloss Lab who participated in code clubs related to
+the initial development of the pipeline, made documentation improvements, and
+provided general feedback.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;We need to strive toward better machine learning practices by:&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;funding&#34;&gt;Funding&lt;/h1&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Implementing consistent, accessible and transparent machine learning methods.&lt;/li&gt;
-&lt;li&gt;Selecting ML models that reflect the goal of the study.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Salary support for PDS came from NIH grant 1R01CA215574. KLS received support
+from the NIH Training Program in Bioinformatics (T32 GM070449). ZL received
+support from the National Science Foundation Graduate Research Fellowship
+Program under Grant No. DGE 1256260. Any opinions, findings, and conclusions or
+recommendations expressed in this material are those of the authors and do not
+necessarily reflect the views of the National Science Foundation.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Goals of this project&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;author-contributions&#34;&gt;Author contributions&lt;/h1&gt;
 
-&lt;p&gt;Provide an open-source, reproducible and user-friendly ML pipeline for microbial ecologists to use.&lt;/p&gt;
+&lt;p&gt;BDT, ZL, and KLS contributed equally. Author order among the co-first authors
+was determined by time since joining the project.&lt;/p&gt;
+
+&lt;p&gt;BDT, ZL, and KLS conceptualized the study and wrote the code. KLS structured the
+code in R package form. BDT, ZL, JW, and PDS developed methodology. PDS, ES, and
+JW supervised the project. BDT, ZL, and KLS wrote the original draft. All
+authors reviewed and edited the manuscript.&lt;/p&gt;
 </description>
     </item>
     

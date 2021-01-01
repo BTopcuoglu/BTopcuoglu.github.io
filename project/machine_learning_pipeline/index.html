@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Create a reproducible, user-friendly and open-source ML pipeline.">
+  <meta name="description" content="mikropML: R package to create a reproducible, user-friendly and open-source ML pipelines">
 
   
   <link rel="alternate" hreflang="en-us" href="https://begumtopcuoglu.com/project/machine_learning_pipeline/">
@@ -117,8 +117,8 @@
   
   <meta property="og:site_name" content="Begum Topcuoglu">
   <meta property="og:url" content="https://begumtopcuoglu.com/project/machine_learning_pipeline/">
-  <meta property="og:title" content="Machine earning pipeline for binary classification problems | Begum Topcuoglu">
-  <meta property="og:description" content="Create a reproducible, user-friendly and open-source ML pipeline."><meta property="og:image" content="https://begumtopcuoglu.com/img/icon-192.png">
+  <meta property="og:title" content="mikropML is on CRAN! | Begum Topcuoglu">
+  <meta property="og:description" content="mikropML: R package to create a reproducible, user-friendly and open-source ML pipelines"><meta property="og:image" content="https://begumtopcuoglu.com/img/icon-192.png">
   <meta property="twitter:image" content="https://begumtopcuoglu.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -150,7 +150,7 @@
     "@type": "WebPage",
     "@id": "https://begumtopcuoglu.com/project/machine_learning_pipeline/"
   },
-  "headline": "Machine earning pipeline for binary classification problems",
+  "headline": "mikropML is on CRAN!",
   
   "datePublished": "2019-11-13T23:02:29-05:00",
   "dateModified": "2019-11-13T23:02:29-05:00",
@@ -168,7 +168,7 @@
       "url": "https://begumtopcuoglu.com/img/icon-512.png"
     }
   },
-  "description": "Create a reproducible, user-friendly and open-source ML pipeline."
+  "description": "mikropML: R package to create a reproducible, user-friendly and open-source ML pipelines"
 }
 </script>
 
@@ -186,7 +186,7 @@
 
 
 
-  <title>Machine earning pipeline for binary classification problems | Begum Topcuoglu</title>
+  <title>mikropML is on CRAN! | Begum Topcuoglu</title>
 
 </head>
 
@@ -464,7 +464,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Machine earning pipeline for binary classification problems</h1>
+  <h1>mikropML is on CRAN!</h1>
 
   
 
@@ -529,6 +529,8 @@
 
 <div class="btn-links mb-3">
   
+  <a class="btn btn-outline-primary my-1" href="https://cloud.r-project.org/web/packages/mikropml/index.html" target="_blank" rel="noopener">Go to Project Site</a>
+  
   
 
 
@@ -539,8 +541,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="http://www.schlosslab.org/mikropml/" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -577,53 +585,102 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Machine learning is a set of methods that allow computers to learn from existing data and make predictions on new data.</p>
+      
 
-<p>Machine learning models are programs learned by the computer. They predict which Amazon product you will buy next, how much value Bitcoin will lose in the coming month or when the cherry blossoms will peak in Washington DC.</p>
+<h1 id="summary">Summary</h1>
 
-<p><strong>ML models are now being used to make high stake decisions by:</strong></p>
+<p>Machine learning (ML) for classification and prediction based on a set of
+features is used to make decisions in healthcare, economics, criminal justice
+and more. However, implementing an ML pipeline including preprocessing, model
+selection, and evaluation can be time-consuming, confusing, and difficult. Here,
+we present <a href="http://www.schlosslab.org/mikropml/" target="_blank"><code>mikropml</code></a> (prononced
+&ldquo;meek-ROPE em el&rdquo;), an easy-to-use R package that implements ML pipelines using
+regression, support vector machines, decision trees, random forest, or
+gradient-boosted trees. The package is available on
+<a href="https://github.com/SchlossLab/mikropml/" target="_blank">GitHub</a>,
+<a href="https://cran.r-project.org/package=mikropml" target="_blank">CRAN</a>, and
+<a href="https://anaconda.org/conda-forge/r-mikropml" target="_blank">conda</a>.</p>
 
-<ul>
-<li>The judicial system to make parole decisions.</li>
-<li>Weather forecasts to predict air quality.</li>
-<li>The financial system to decide who gets a loan.</li>
-<li>Hospitals to automoate interpretation of the EKGs and detection of a lung nodules from chest X-rays.</li>
-</ul>
+<h1 id="statement-of-need">Statement of need</h1>
 
-<p><strong>Can we use ML models in the microbiome field?</strong></p>
+<p>Most applications of machine learning (ML) require reproducible steps for data
+pre-processing, cross-validation, testing, model evaluation, and often
+interpretation of why the model makes particular predictions. Performing these
+steps is important, as failure to implement them can result in incorrect and
+misleading results.</p>
 
-<p>Microbiome field is growing at an unprecedented rate.
-There is an increasing demand for methods that identify associations between members of the microbiome and their ecosystem such as an animal host or a soil habitat.</p>
+<p>Supervised ML is widely used to recognize patterns in large datasets and to make
+predictions about outcomes of interest. Several packages including <code>caret</code> and <code>tidymodels</code>  in R,
+<code>scikitlearn</code> in Python, and the H2O <code>autoML</code>
+platform allow scientists to train ML models with a variety of
+algorithms. While these packages provide the tools necessary for each ML step,
+they do not implement a complete ML pipeline according to good practices in the
+literature. This makes it difficult for practitioners new to ML to easily begin
+to perform ML analyses.</p>
 
-<p>It is unlikely that a single species can explain the change we see in an ecosystem. Instead, subsets of those communities, in relation to one another and to their environment account for that.</p>
+<p>To enable a broader range of researchers to apply ML to their problem domains,
+we created <a href="https://github.com/SchlossLab/mikropml/" target="_blank"><code>mikropml</code></a>, an easy-to-use
+R package that implements the ML pipeline created by
+Topçuoğlu <em>et al.</em> 2020 in a single function that returns a trained model,
+model performance metrics and feature importance. <code>mikropml</code> leverages
+the <code>caret</code> package to support several ML algorithms: linear regression,
+logistic regression, support vector machines with a radial basis kernel,
+decision trees, random forest, and gradient boosted trees. It incorporates good
+practices in ML training, testing, and model evaluation. Furthermore, it
+provides data preprocessing steps based on the FIDDLE (FlexIble Data-Driven
+pipeLinE) framework outlined in Tang <em>et al.</em> 2020 and
+post-training permutation importance steps to estimate the importance of each
+feature in the models trained.</p>
 
-<p>Machine learning (ML) methods are effective at recognizing and highlighting patterns in complex microbial datasets. Therefore, researchers have started to explore the utility of ML models that use microbiome associated biomarkers to predict changes in an ecosystem using ML such as:</p>
+<p><code>mikropml</code> can be used as a starting point in the application of ML to datasets
+from many different fields. It has already been applied to microbiome data to
+categorize patients with colorectal cancer to
+identify differences in genomic and clinical features associated with bacterial
+infections and to predict gender-based biases in academic
+publishing .</p>
 
-<ul>
-<li>Modeling soil microbiome to predict crop productivity.</li>
-<li>Modeling muman microbiome to detect colorectal cancer or a Clostridium difficile infection.</li>
-</ul>
+<h1 id="mikropml-package">mikropml package</h1>
 
-<p><strong>Problems with ML in the microbiome field</strong></p>
+<p>The <code>mikropml</code> package includes functionality to preprocess the data, train ML
+models, evaluate model performance, and quantify feature importance (Figure 1).
+We also provide
+<a href="http://www.schlosslab.org/mikropml/articles/index.html" target="_blank">vignettes</a> and an
+<a href="https://github.com/SchlossLab/mikropml-snakemake-workflow" target="_blank">example Snakemake
+workflow</a> to showcase how to run an ideal ML pipeline
+with multiple different train/test data splits. The results can be visualized
+using helper functions that use <code>ggplot2</code>.</p>
 
-<ul>
-<li><p>It is great that we are using new tools to understand microbial systems however, currentlythe field’s use of ML lacks clarity and consistency on which methods are used and how these methods are implemented.</p></li>
+<p>While mikropml allows users to get started quickly and facilitates
+reproducibility, it is not a replacement for understanding the ML workflow which
+is still necessary when interpreting results. To
+facilitate understanding and enable one to tailor the code to their application,
+we have heavily commented the code and have provided supporting documentation
+which can be read <a href="http://www.schlosslab.org/mikropml/" target="_blank">online</a>.</p>
 
-<li><p>There is a trend towards using more complex ML models such as random or neural networks without a discussion on if this is necessary for the goals of a study.</p></li>
+<h1 id="acknowledgments">Acknowledgments</h1>
 
-<li><p>The lack of transparency on modeling methodology and model selection negatively impact model reproducibility and reliability.</p></li>
-</ul>
+<p>We thank members of the Schloss Lab who participated in code clubs related to
+the initial development of the pipeline, made documentation improvements, and
+provided general feedback.</p>
 
-<p><strong>We need to strive toward better machine learning practices by:</strong></p>
+<h1 id="funding">Funding</h1>
 
-<ol>
-<li>Implementing consistent, accessible and transparent machine learning methods.</li>
-<li>Selecting ML models that reflect the goal of the study.</li>
-</ol>
+<p>Salary support for PDS came from NIH grant 1R01CA215574. KLS received support
+from the NIH Training Program in Bioinformatics (T32 GM070449). ZL received
+support from the National Science Foundation Graduate Research Fellowship
+Program under Grant No. DGE 1256260. Any opinions, findings, and conclusions or
+recommendations expressed in this material are those of the authors and do not
+necessarily reflect the views of the National Science Foundation.</p>
 
-<p><strong>Goals of this project</strong></p>
+<h1 id="author-contributions">Author contributions</h1>
 
-<p>Provide an open-source, reproducible and user-friendly ML pipeline for microbial ecologists to use.</p>
+<p>BDT, ZL, and KLS contributed equally. Author order among the co-first authors
+was determined by time since joining the project.</p>
+
+<p>BDT, ZL, and KLS conceptualized the study and wrote the code. KLS structured the
+code in R package form. BDT, ZL, JW, and PDS developed methodology. PDS, ES, and
+JW supervised the project. BDT, ZL, and KLS wrote the original draft. All
+authors reviewed and edited the manuscript.</p>
 
     </div>
 
@@ -652,7 +709,7 @@ There is an increasing demand for methods that identify associations between mem
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://begumtopcuoglu.com/project/machine_learning_pipeline/&amp;text=Machine%20earning%20pipeline%20for%20binary%20classification%20problems" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://begumtopcuoglu.com/project/machine_learning_pipeline/&amp;text=mikropML%20is%20on%20CRAN!" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -665,7 +722,7 @@ There is an increasing demand for methods that identify associations between mem
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://begumtopcuoglu.com/project/machine_learning_pipeline/&amp;t=Machine%20earning%20pipeline%20for%20binary%20classification%20problems" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://begumtopcuoglu.com/project/machine_learning_pipeline/&amp;t=mikropML%20is%20on%20CRAN!" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -678,7 +735,7 @@ There is an increasing demand for methods that identify associations between mem
       
       
       <li>
-        <a href="mailto:?subject=Machine%20earning%20pipeline%20for%20binary%20classification%20problems&amp;body=https://begumtopcuoglu.com/project/machine_learning_pipeline/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=mikropML%20is%20on%20CRAN!&amp;body=https://begumtopcuoglu.com/project/machine_learning_pipeline/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -691,7 +748,7 @@ There is an increasing demand for methods that identify associations between mem
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://begumtopcuoglu.com/project/machine_learning_pipeline/&amp;title=Machine%20earning%20pipeline%20for%20binary%20classification%20problems" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://begumtopcuoglu.com/project/machine_learning_pipeline/&amp;title=mikropML%20is%20on%20CRAN!" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -704,7 +761,7 @@ There is an increasing demand for methods that identify associations between mem
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Machine%20earning%20pipeline%20for%20binary%20classification%20problems%20https://begumtopcuoglu.com/project/machine_learning_pipeline/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=mikropML%20is%20on%20CRAN!%20https://begumtopcuoglu.com/project/machine_learning_pipeline/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -717,7 +774,7 @@ There is an increasing demand for methods that identify associations between mem
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://begumtopcuoglu.com/project/machine_learning_pipeline/&amp;title=Machine%20earning%20pipeline%20for%20binary%20classification%20problems" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://begumtopcuoglu.com/project/machine_learning_pipeline/&amp;title=mikropML%20is%20on%20CRAN!" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
