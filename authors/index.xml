@@ -5,12 +5,28 @@
     <link>https://begumtopcuoglu.com/authors/</link>
       <atom:link href="https://begumtopcuoglu.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://begumtopcuoglu.com/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://begumtopcuoglu.com/authors/</link>
     </image>
+    
+    <item>
+      <title>Begüm D. Topçuoglu</title>
+      <link>https://begumtopcuoglu.com/authors/begum-d.-topcuoglu/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/begum-d.-topcuoglu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zena Lapp and Kelly Sovacool</title>
+      <link>https://begumtopcuoglu.com/authors/zena-lapp-and-kelly-sovacool/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/authors/zena-lapp-and-kelly-sovacool/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -28,14 +44,6 @@
       <link>https://begumtopcuoglu.com/authors/and-patrick-d.-schloss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://begumtopcuoglu.com/authors/and-patrick-d.-schloss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Begüm D. Topçuoğlu</title>
-      <link>https://begumtopcuoglu.com/authors/begum-d.-topcuoglu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://begumtopcuoglu.com/authors/begum-d.-topcuoglu/</guid>
       <description></description>
     </item>
     

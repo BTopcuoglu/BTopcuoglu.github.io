@@ -5,12 +5,20 @@
     <link>https://begumtopcuoglu.com/tags/</link>
       <atom:link href="https://begumtopcuoglu.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://begumtopcuoglu.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://begumtopcuoglu.com/tags/</link>
     </image>
+    
+    <item>
+      <title>reproducible workflow</title>
+      <link>https://begumtopcuoglu.com/tags/reproducible-workflow/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://begumtopcuoglu.com/tags/reproducible-workflow/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
